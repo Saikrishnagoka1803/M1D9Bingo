@@ -2,10 +2,47 @@ h1 {
     font-size: 30pt;
     text-align: center;
     margin-top: 30px;
-    color: blue;
+    color: rgb(228, 48, 204);
     text-transform: uppercase;
     font-weight: bold;
 }
-.number {
+body {
+    background-color: rgb(224, 235, 166);
+    color: whitesmoke;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+#numbers_container {
+    border-style: solid;
+    display: inline-block;
+    border-width: 3px;
+    padding: 12px;
+    border-radius: 8px;
+    border-color: rgb(52, 83, 4);
+}
 
+.number{
+    background-color: cornflowerblue;
+    display: inline-block;
+    width: 7%;
+    min-height: 56px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: medium;
+    font-style: inherit;
+    font-weight: bold;
+    border-style: solid;
+    border-color: rgb(60, 12, 233);
+    border-radius: 5px;
+    margin: 8px;
+}
+#positionOfButton{
+    margin-top: 25px;
+    border-color: indianred;
+    border-width: 3px;
+    background-color: grey;
+}
+.highlight{
+    background-color: orange;
 }
